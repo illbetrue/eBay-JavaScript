@@ -61,7 +61,7 @@ export default defineConfig({
     },
     {
     name: 'MobileSafari',
-    use: { ...devices["iPhone 11 Pro Max"] },
+    use: { ...devices["iPhone 13 Pro Max"] },
     },
 
     /* Test against branded browsers. */
