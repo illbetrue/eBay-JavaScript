@@ -1,0 +1,1 @@
+Error marking checkbox: TypeError: this.waitForCheckbox is not a function

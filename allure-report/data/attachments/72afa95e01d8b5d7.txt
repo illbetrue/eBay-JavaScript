@@ -1,0 +1,4 @@
+Error selecting item by index: Error: elementHandle.isChecked: Execution context was destroyed, most likely because of a navigation
+Call log:
+  - waiting for locator(':scope')
+

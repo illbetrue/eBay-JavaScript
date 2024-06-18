@@ -1,0 +1,1 @@
+Error selecting item by index: ReferenceError: Cannot access 'checkbox' before initialization

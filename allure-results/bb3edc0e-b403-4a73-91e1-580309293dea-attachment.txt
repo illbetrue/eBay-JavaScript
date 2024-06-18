@@ -1,0 +1,4 @@
+Error marking checkbox: Error: locator.waitFor: Test ended.
+Call log:
+  - waiting for locator('//input[@aria-label=\'Unlocked\']') to be visible
+

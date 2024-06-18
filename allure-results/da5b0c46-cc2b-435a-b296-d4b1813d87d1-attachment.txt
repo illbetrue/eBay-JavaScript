@@ -1,0 +1,1 @@
+Error selecting item by index: TypeError: Cannot read properties of null (reading 'scrollIntoView')

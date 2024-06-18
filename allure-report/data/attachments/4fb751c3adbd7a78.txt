@@ -1,0 +1,2 @@
+Error marking checkbox: TypeError: checkbox.scrollIntoView is not a function
+Error selecting item by index: TypeError: checkbox.scrollIntoView is not a function

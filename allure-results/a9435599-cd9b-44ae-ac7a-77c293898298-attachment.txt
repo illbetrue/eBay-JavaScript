@@ -1,0 +1,4 @@
+Error marking checkbox: Error: locator.scrollIntoViewIfNeeded: Test ended.
+Call log:
+  - waiting for locator('//input[@aria-label=\'Unlocked\']')
+

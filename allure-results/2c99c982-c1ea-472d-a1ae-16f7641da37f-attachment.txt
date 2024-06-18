@@ -1,0 +1,10 @@
+Error marking checkbox: Error: locator.check: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@aria-label=\'Unlocked\']')
+  -   locator resolved to <input tabindex="-1" type="checkbox" aria-hidden="true"…/>
+  - attempting click action
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+

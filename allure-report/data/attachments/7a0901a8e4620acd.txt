@@ -1,0 +1,1 @@
+Error selecting item by index: TypeError: this.page.locator.$ is not a function

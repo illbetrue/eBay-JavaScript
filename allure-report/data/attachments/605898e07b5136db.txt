@@ -1,0 +1,4 @@
+Error selecting item by index: Error: locator.scrollIntoViewIfNeeded: Unsupported token "@aria-label" while parsing selector "input[@aria-label='Unlocked']"
+Call log:
+  - waiting for input[@aria-label='Unlocked']
+

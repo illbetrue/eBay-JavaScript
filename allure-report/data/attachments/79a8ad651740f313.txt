@@ -1,0 +1,4 @@
+Error marking checkbox: Error: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//li[@name=\'Storage%2520Capacity\']//input[@aria-label=\'256GB\']') to be visible
+

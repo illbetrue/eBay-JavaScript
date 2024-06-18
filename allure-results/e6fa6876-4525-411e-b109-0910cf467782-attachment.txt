@@ -1,0 +1,2 @@
+Error marking checkbox: Error: Checkbox with label '256GB' not found.
+Error selecting item by index: Error: Checkbox with label '256GB' not found.
