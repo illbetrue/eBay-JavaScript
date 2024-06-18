@@ -55,14 +55,14 @@ export default defineConfig({
     //},
 
     /* Test against mobile viewports. */
-    //{
-    //name: 'MobileChrome',
-    //use: { ...devices["Pixel 7"] },
-    //},
-    //{
-    //name: 'MobileSafari',
-    //use: { ...devices["iPhone 11 Pro Max"] },
-    //},
+    {
+    name: 'MobileChrome',
+    use: { ...devices["Pixel 7"] },
+    },
+    {
+    name: 'MobileSafari',
+    use: { ...devices["iPhone 11 Pro Max"] },
+    },
 
     /* Test against branded browsers. */
     // {
