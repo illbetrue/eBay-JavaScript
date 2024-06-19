@@ -15,7 +15,7 @@ export class SidebarFilterComponent {
     return checkbox;
   };
 
-  async chooseMobileFilterCategory(input) {
+  async chooseMobileCategoriesFilter(input) {
     await this._mobileFilterButton.click();
     const mobileFilterCategoryButton = await this.page.locator(`(//span[text()='${input}']/following-sibling::span)[2]`);
     await mobileFilterCategoryButton.click();

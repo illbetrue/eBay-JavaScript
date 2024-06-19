@@ -30,7 +30,7 @@ export class SearchResultPage {
         throw error;
       }
     } else {
-      await this._sidebarFilterComponent.chooseMobileFilterCategory(input);
+      await this._sidebarFilterComponent.chooseMobileCategoriesFilter(input);
       await this._sidebarFilterComponent.markMobileCheckBoxAndSubmit(value);
       await this.page.waitForSelector('div.s-item__image-section');
       const items = await this.page.$$('div.s-item__image-section');
