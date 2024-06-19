@@ -28,11 +28,11 @@ export class BasePage {
       this.pages.push(newPage);
       await newPage.waitForLoadState('domcontentloaded');
       this.itemPage = new ItemPage(newPage);
-      const result = await this.itemPage.getItemNameTextForDesktop();
+      const result = await this.itemPage.getItemNameForDesktop();
       return result;
     } else {
       await this.searchResultPage.filteringAndSelectItemByIndex(index, value, input, isMobile);
-      const result = await this.itemPage.getItemNameTextForMobile();
+      const result = await this.itemPage.getItemNameForMobile();
       return result;
     }
   };

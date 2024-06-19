@@ -6,11 +6,11 @@ export class ItemPage {
     this._mobileItemName = page.locator('div.vi-title__main');
   };
 
-  async getItemNameTextForDesktop() {
+  async getItemNameForDesktop() {
     return await this._desktopItemName.innerText();
   };
 
-  async getItemNameTextForMobile() {
+  async getItemNameForMobile() {
     return await this._mobileItemName.innerText();
   };
   
